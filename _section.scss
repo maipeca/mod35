@@ -1,0 +1,56 @@
+
+@use 'colors';
+
+.gear-image{width: 594px;
+height: 312px;}
+
+section{display: flex; height: 268px; margin-top: 0px;}
+
+.fazemos {
+    padding:48px 60px 58px 29px;
+    line-height: 21px;
+    font-size: 15px;
+    background-color: #d1012c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 400px;
+    height: 312px;
+
+    h1{font-size: 36px;
+    padding-bottom: 16px;
+    font-family: colors.$font-primary;
+
+    font-weight: 400;
+    
+    font-style: normal;}
+
+    img{padding-top:40px; }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #ba0028;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    #dark{background-color:#432e32 ;}
+    .dots{display: inline;
+    margin-left:180px;}
+
+}
+
+.conheza, .produtos, .principais{ 
+    
+    padding: 40px 27px 76px 20px;
+    width: 340px;
+    height: 151px;
+
+    h2 {font-size: 23px; margin-bottom: 14px;}
+    p{ line-height: 20.3px; margin-bottom: 23px;}
+
+
+
+}
+.chapter2{margin-top: 42px;}
